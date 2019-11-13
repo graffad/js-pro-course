@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="wrapper">
+    <div class="container">
+        <form class="select_form" onsubmit="getWeather(); return false">
+            <input type="text" id="city" placeholder="Enter city name" required>
+            <button id="search_city">ok</button>
+        </form>
+        <h2>Weather in: <span id="city_name"></span></h2>
+        <div class="current-weather-block">
+            <h3>Current weather</h3>
+
+            <p class="temperature_big" ><span id="tempr"></span> <img src="" alt="weather" id="w_icon"></p>
+            <h4 ><span id="descr"></span></h4>
+            <div class="weather_description">
+                <div class="col1">
+                    <p>Feels like: <span id="feels_value"></span></p>
+                    <p>Pressure: <span id="pressure_value"></span></p>
+                    <p>Wind direction: <span id="wind_direction_value"></span></p>
+                </div>
+                <div class="col2">
+                    <p>Wind speed: <span id="wind_speed_value"></span></p>
+                    <p>Humidity: <span id="humidity_value"></span></p>
+                    <p>Cloud cover: <span id="cloudcover_value"></span></p>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+<script src="main.js"></script>
+</body>
+</html>
