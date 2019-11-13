@@ -1,0 +1,86 @@
+/*font-family: 'Orbitron', sans-serif;*/
+* {
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    outline: none;
+}
+
+.weather_description span {
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.select_form {
+    max-width: 500px;
+    margin: 100px auto;
+}
+
+.select_form input {
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid deepskyblue;
+    margin-right: 2%;
+}
+
+.select_form button {
+    height: 30px;
+    border-color: deepskyblue;
+    border-radius: 50%;
+    color: deepskyblue;
+    background: white;
+    font-weight: bold;
+}
+
+.temperature_big {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#city_name {
+    color: deepskyblue;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+#w_icon {
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.current-weather-block {
+    margin: 40px auto;
+    padding: 10px;
+    max-width: 400px;
+    background: linear-gradient(to top, rgba(240, 240, 240, 1) 35%, rgba(25, 182, 255, 1) 100%);
+    border-radius: 10px;
+    display: none;
+
+}
+
+.show_weather {
+    display: block;
+
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+.weather_description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #5d5d5d;
+}
