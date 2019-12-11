@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+
+<div class="wrapper">
+    <img src="" alt="" id="logo">
+    <div class="container">
+        <form class="select_form">
+            <input type="text" id="city" placeholder="Enter city name" required>
+            <button id="search_city" type="button" class="subm_btns">ok</button>
+            <button id="my_location" type="button" class="subm_btns subm_wide">My location</button>
+            <p id="preloader">Загрузка...</p>
+        </form>
+        <p style="text-align: center;margin-bottom: 20px">
+            <button class="subm_btns subm_wide" id="history_show_btn">HISTORY</button>
+        </p>
+        <h2>Weather in: <span id="city_name"></span></h2>
+        <div class="current-weather-block">
+            <h3>Current weather</h3>
+
+            <p class="temperature_big" ><span id="tempr" class="span_in_chosen"></span> <img src="" alt="weather" id="w_icon"></p>
+            <h4 ><span id="descr" class="span_in_chosen" ></span></h4>
+            <div class="weather_description">
+                <div class="col1">
+                    <p>Feels like: <span id="feels_value" class="span_in_chosen"></span></p>
+                    <p>Pressure: <span id="pressure_value" class="span_in_chosen"></span></p>
+                    <p>Wind direction: <span id="wind_direction_value" class="span_in_chosen"></span></p>
+                </div>
+                <div class="col2">
+                    <p>Wind speed: <span id="wind_speed_value" class="span_in_chosen"></span></p>
+                    <p>Humidity: <span id="humidity_value" class="span_in_chosen"></span></p>
+                    <p>Cloud cover: <span id="cloudcover_value" class="span_in_chosen"></span></p>
+                </div>
+
+            </div>
+        </div>
+        <div class="local-weather-block">
+            <h3>Current weather</h3>
+
+            <p class="temperature_big" ><span id="tempr_local" class="span_in_chosen"></span> <img src="" alt="weather" id="w_icon_local"></p>
+            <h4 ><span id="descr_local" class="span_in_chosen" ></span></h4>
+            <div class="weather_description">
+                <div class="col1">
+                    <p>Feels like: <span id="feels_value_local" class="span_in_chosen"></span></p>
+                    <p>Pressure: <span id="pressure_value_local" class="span_in_chosen"></span></p>
+                    <p>Wind direction: <span id="wind_direction_value_local" class="span_in_chosen"></span></p>
+                </div>
+                <div class="col2">
+                    <p>Wind speed: <span id="wind_speed_value_local" class="span_in_chosen"></span></p>
+                    <p>Humidity: <span id="humidity_value_local" class="span_in_chosen"></span></p>
+                    <p>Cloud cover: <span id="cloudcover_value_local" class="span_in_chosen"></span></p>
+                </div>
+
+            </div>
+        </div>
+        <div class="history-block">
+            <ul id="history_ul">
+            </ul>
+            <div class="history-buttons">
+                <button class="subm_btns subm_wide" id="history_close_btn">CLOSE</button>
+                <button class="subm_btns subm_wide" id="history_clear_btn">CLEAR</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
