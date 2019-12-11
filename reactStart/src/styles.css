@@ -1,0 +1,16 @@
+/* @font-face {
+    font-family: 'calist';
+    src: url('./assets/fonts/calistoga-regular-webfont.woff2') format('woff2'),
+         url('./assets/fonts/calistoga-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+} */
+
+body, *, h1 {
+    margin: 0;
+    padding: 0;
+}
+.App {
+    background: red;
+}
