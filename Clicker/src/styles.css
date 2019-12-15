@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.clicker-wrapper {
+    border: 2px solid gray;
+    margin: 10px auto;
+    display: inline-block;
+}
+
+.counter p {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons :nth-child(1) {
+    background: red;
+    font-size: 30px;
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons :nth-child(2) {
+    background: yellow;
+    font-size: 30px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons :nth-child(3) {
+    background: green;
+    font-size: 30px;
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+}
+.button-delete{
+    width: 100%;
+    font-size: 20px;
+    background: crimson;
+    border: none;
+    cursor: pointer;
+}
