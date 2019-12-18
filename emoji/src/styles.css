@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emoj-wrapper{
+
+}
+.emoj-wrapper input{
+    width: 200px;
+    height: 30px;
+    border: 5px solid fuchsia;
+
+}
