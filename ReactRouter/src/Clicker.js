@@ -25,9 +25,7 @@ export class ClickApp extends React.Component {
   }
 
   countReset() {
-    this.setState((prevstate) => ({
-      counter: 0
-    }));
+    this.setState({ counter: 0 });
   }
 
   render() {

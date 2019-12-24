@@ -35,7 +35,7 @@ export class EmojiList extends React.Component {
               {data.map(item => (
                 <option key={item.codes} value={item.char + item.name}></option>
 
-              ))}
+              )).slice(0, 15)}
             </datalist>
           </p>
         </div>
